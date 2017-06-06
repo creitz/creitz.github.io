@@ -259,6 +259,9 @@ span.glyphicon.glyphicon-search.edit {
 #about,.services,#portfolio, .wthreeskills, .aitsresumewthree{
     padding: 4em 0;
 }
+#portfolio {
+	padding-top: 0px;
+}
 .w3ls-agile-left-info {
     padding: 1em 0;
 }
@@ -662,6 +665,7 @@ h3.agileits-title{
 /*-- experience-starts-here --*/
 .aitsresumewthree {
 	position: relative;
+	padding-bottom: 0px;
 }
 
 .aitsresumewthree h4.title {
