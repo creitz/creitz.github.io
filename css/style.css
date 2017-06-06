@@ -188,17 +188,6 @@ span.caret:hover {
 	font-family: 'Nunito', sans-serif;
 	font-weight: 300;
 	background: none !important;
-	-webkit-transition: -webkit-transform 0.3s;
-	-ms-transition: -webkit-transform 0.3s;
-	-o-transition: -webkit-transform 0.3s;
-	-moz-transition: -moz-transform 0.3s;
-	transition: transform 0.3s;
-	-webkit-transform-origin: 50% 0;
-	-moz-transform-origin: 50% 0;
-	transform-origin: 50% 0;
-	-webkit-transform-style: preserve-3d;
-	-moz-transform-style: preserve-3d;
-	transform-style: preserve-3d;
 	color: #fff;
 }
 .cl-effect-2 a span::before {
@@ -213,29 +202,6 @@ span.caret:hover {
 	padding: 0;
 	z-index:999;
 	background: none;
-	content: attr(data-hover);
-	-webkit-transition: background 0.3s;
-	-moz-transition: background 0.3s;
-	transition: background 0.3s;
-	-webkit-transform: rotateX(-90deg);
-	-ms-transform: rotateX(-90deg);
-	-o-transform: rotateX(-90deg);
-	-moz-transform: rotateX(-90deg);
-	transform: rotateX(-90deg);
-	-webkit-transform-origin: 50% 0;
-	-o-transform-origin: 50% 0;
-	-ms-transform-origin: 50% 0;
-	-moz-transform-origin: 50% 0;
-	transform-origin: 50% 0;
-}
-.cl-effect-2 a:hover span,
-.cl-effect-2 a:focus span {
-	-webkit-transform: rotateX(90deg) translateY(-22px);
-	-moz-transform: rotateX(90deg) translateY(-22px);
-	-o-transform: rotateX(90deg) translateY(-22px);
-	-ms-transform: rotateX(90deg) translateY(-22px);
-	transform: rotateX(90deg) translateY(-22px);
-	color: #fff;
 }
 
 .csstransforms3d .cl-effect-2 a:hover span::before,
