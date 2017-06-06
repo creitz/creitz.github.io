@@ -228,6 +228,12 @@ span.glyphicon.glyphicon-search.edit {
 #portfolio {
 	padding-top: 0px;
 }
+
+.tab-1 * {
+	margin: 10px;
+	margin-right: 40px;
+}
+
 .w3ls-agile-left-info {
     padding: 1em 0;
 }
