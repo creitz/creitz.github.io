@@ -268,9 +268,6 @@ h3.w3l_head, h3.agileits-title, h3.agile-title, h3.agile-contact, div#wthreeskil
 /*-- effect --*/
 .hovicon {
     display: inline-block;
-    font-size: 2.2em;
-    line-height: 71px;
-    cursor: pointer;
     margin: 27px 28px;
     width: 65px;
     height: 65px;
@@ -299,34 +296,6 @@ h3.w3l_head, h3.agileits-title, h3.agile-title, h3.agile-contact, div#wthreeskil
     text-transform: none;
     display: block;
     -webkit-font-smoothing: antialiased;
-}
-/* Effect 2 */
- .hovicon.effect-2 {
-    color: #fff;
-	box-shadow:0 0 0 3px #07cb79;
-    -webkit-transition: color 0.3s;
-    -moz-transition: color 0.3s;
-    transition: color 0.3s;
-}
-.hovicon.effect-2:after {
-    top: -2px;
-    left: -2px;
-    padding: 2px;
-    z-index: -1;
-    background:#07cb79;
-    -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
-    -moz-transition: -moz-transform 0.2s, opacity 0.2s;
-    transition: transform 0.2s, opacity 0.2s;
-}
-/* Effect 2a */
- .hovicon.effect-2.sub-a:hover, .hovicon.effect-2.sub-a:hover i {
-    color:#eee;
-}
-.hovicon.effect-2.sub-a:hover:after {
-    -webkit-transform: scale(0.85);
-    -moz-transform: scale(0.85);
-    -ms-transform: scale(0.85);
-    transform: scale(0.85);
 }
 /*-- //effect --*/
 
@@ -1112,10 +1081,7 @@ textarea {
 		min-height: 120px;
 	}
 	.hovicon {
-		font-size: 2.1em;
-		line-height: 65px;
 		width: 60px;
-		height: 60px;
 	}
 	.map iframe {
 		height: 270px;
@@ -1466,8 +1432,6 @@ textarea {
 		letter-spacing: 1px;
 	}
 	.hovicon {
-		font-size: 1.9em;
-		line-height: 61px;
 		width: 54px;
 		height: 54px;
 	}
@@ -1586,8 +1550,6 @@ textarea {
 		font-size: 0.9em;
 	}
 	.hovicon {
-		font-size: 1.85em;
-		line-height: 58px;
 		width: 50px;
 		height: 50px;
 		margin: 21px 14px;
@@ -1802,8 +1764,6 @@ textarea {
 		margin: 18px 4px;
 	}
 	.hovicon {
-		font-size: 1.8em;
-		line-height: 54px;
 		width: 48px;
 		height: 48px;
 	}
@@ -1870,8 +1830,6 @@ textarea {
 		width: 81%;
 	}
 	.hovicon {
-		font-size: 1.7em;
-		line-height: 51px;
 		width: 45px;
 		height: 45px;
 	}
