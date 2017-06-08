@@ -529,6 +529,9 @@ h3.w3l_head, h3.agileits-title, h3.agile-title, h3.agile-contact, div#wthreeskil
 h3.agileits-title{
 	color:#fff ;
 }
+.my-interests-title {
+	text-shadow: 1px 1px #000000;
+}
 .w3agile-servs-img {
     width: 100%;
     height: 200px;
