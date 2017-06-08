@@ -263,7 +263,7 @@ h3.w3l_head, h3.agileits-title, h3.agile-title, h3.agile-contact, div#wthreeskil
     letter-spacing: 2px;
     text-transform: uppercase;
 }
-.w3l-grids-about , .services-w3ls-row, .gallery_gds, .contact-agile, .wthreeskills-grids, .bar_group.group_ident-1, .tabs, .load_more.load_more{
+.w3l-grids-about , .services-w3ls-row, .gallery_gds, .contact-agile, .wthreeskills-grids, .bar_group.group_ident-1, .tabs {
     margin-top: 3em;
 }
 
@@ -636,10 +636,6 @@ ul#myList {
 
 .l_g:after {
 	clear: both;
-}
-
-.load_more{
-	text-align: center;
 }
 
 li.aitsaitsresumewthreeli-1 {
@@ -1225,7 +1221,7 @@ textarea {
 	#about, .services, #portfolio, .wthreeskills, .aitsresumewthree {
 		padding: 3em 0;
 	}
-	.w3l-grids-about, .services-w3ls-row, .gallery_gds, .contact-agile, .wthreeskills-grids, .bar_group.group_ident-1, .tabs, .load_more.load_more {
+	.w3l-grids-about, .services-w3ls-row, .gallery_gds, .contact-agile, .wthreeskills-grids, .bar_group.group_ident-1, .tabs {
 		margin-top: 2em;
 	}
 	.contact-left-agile {
@@ -1399,7 +1395,7 @@ textarea {
 	h3.w3l_head, h3.agileits-title, h3.agile-title, h3.agile-contact, div#wthreeskills h3, .aitsresumewthree-tag h3, .wthreeskills h3 {
 		font-size: 2.1em;
 	}
-	.w3l-grids-about, .services-w3ls-row, .gallery_gds, .contact-agile, .wthreeskills-grids, .bar_group.group_ident-1, .tabs, .load_more.load_more {
+	.w3l-grids-about, .services-w3ls-row, .gallery_gds, .contact-agile, .wthreeskills-grids, .bar_group.group_ident-1, .tabs {
 		margin-top: 1.5em;
 	}
 	.w3ls-agile-left-info h4, .social-info h4 {
@@ -1901,7 +1897,7 @@ textarea {
 	#about, .services, #portfolio, .wthreeskills, .aitsresumewthree {
 		padding: 1.5em 0;
 	}
-	.w3l-grids-about, .services-w3ls-row, .gallery_gds, .contact-agile, .wthreeskills-grids, .bar_group.group_ident-1, .tabs, .load_more.load_more {
+	.w3l-grids-about, .services-w3ls-row, .gallery_gds, .contact-agile, .wthreeskills-grids, .bar_group.group_ident-1, .tabs {
 		margin-top: 1em;
 	}
 	.w3ls-agile-left-info p {
