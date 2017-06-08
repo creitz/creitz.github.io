@@ -89,6 +89,7 @@ a:focus, a:hover {
 	text-align: center;
 	background-color: #000;
 	border-radius: 10px;
+	border: 1px solid #fff;
 }
 .banner-info-w3l h2 {
     color: #fff;
