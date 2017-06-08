@@ -827,7 +827,7 @@ input[type="submit"]:hover {
     width: 50%;
 }
 .contact-left-agile{
-  background: url(../images/contact2.jpg) no-repeat 0px 0px;
+  background: rgba(0, 0, 0, .75);
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
