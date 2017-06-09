@@ -324,6 +324,23 @@ h3.w3l_head, h3.agileits-title, h3.agile-title, h3.agile-contact, div#wthreeskil
 .wthreeskills {
 	background-color: #eee;
 }
+
+#german .b_tooltip {
+	background: url('../images/germany.png') no-repeat;
+}
+
+#french .b_tooltip {
+	background: url('../images/france.png') no-repeat;
+}
+
+#english .b_tooltip {
+	background: url('../images/england.png') no-repeat;
+}
+
+#spanish .b_tooltip {
+	background: url('../images/spain.png') no-repeat;
+}
+
 /*-- Tabs --*/
 	.sap_tabs {
 		clear: both;

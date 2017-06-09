@@ -200,10 +200,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 									</div>
 									<div class="tab-3 resp-tab-content">
 										<div class="bar_group">
-											<div class='bar_group__bar thin' label='English' show_values='true' tooltip='true' value='98'></div>
-											<div class='bar_group__bar thin' label='German' show_values='true' tooltip='true' value='80'></div>
-											<div class='bar_group__bar thin' label='French' show_values='true' tooltip='true' value='30'></div>
-											<div class='bar_group__bar thin' label='Spanish' show_values='true' tooltip='true' value='15'></div>
+											<div id="english" class='bar_group__bar thin' label='English' tooltip='true' value='98'></div>
+											<div id="german" class='bar_group__bar thin' label='German' tooltip='true' value='80'></div>
+											<div id="french" class='bar_group__bar thin' label='French' tooltip='true' value='45'></div>
+											<div id="spanish" class='bar_group__bar thin' label='Spanish' tooltip='true' value='30'></div>
 										</div>
 									</div>
 								</div>
@@ -535,6 +535,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				easingType: 'linear'
 				};
 			*/
+
+            var tags = ["english", "german", "french", "spanish"];
+            for (var i=0; i<tags.length; i++) {
+                var tag = tags[i];
+                var span = $("#" + tag).children()[0].firstChild;
+                span.setAttribute("style", "padding: 5px");
+                span.innerHTML = "";
+            }
 
 			$().UItoTop({ easingType: 'easeOutQuart' });
         });
