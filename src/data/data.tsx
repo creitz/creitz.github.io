@@ -1,18 +1,13 @@
 import {
   AcademicCapIcon,
-  CalendarIcon,
   DownloadIcon,
   FlagIcon,
   MapIcon,
   OfficeBuildingIcon,
-  SparklesIcon,
 } from '@heroicons/react/outline';
 
 import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -103,16 +98,12 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `Just a guy trying to live his best life, using software engineering as the means to that end`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: OfficeBuildingIcon},
+    {label: 'Employer', text: 'Chime Financial, Inc.', Icon: OfficeBuildingIcon},
+    {label: 'Location', text: 'San Francisco, CA', Icon: MapIcon},
+    {label: 'Education', text: 'M.S. & B.S. in Computer Science', Icon: AcademicCapIcon},
+    {label: 'Nationality', text: 'American', Icon: FlagIcon},
   ],
 };
 
@@ -267,40 +258,46 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: '2017',
+    location: 'University of Southern California',
+    title: 'Masters in Computer Science, specialization in Software Engineering',
+    content: <p></p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'A long, long time ago',
+    location: 'The Ohio State University',
+    title: 'Bachelors in Computer Science & Engineering',
+    content: <p></p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
   {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
+    date: 'August 2021 - Present',
+    location: 'Chime Financial, Inc.',
+    title: 'Senior Software Engineer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
+        React Native & Rails
       </p>
     ),
   },
   {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
+    date: 'June 2019 - August 2021',
+    location: 'Charlie Finance Co. (acq. by Chime)',
+    title: 'Full Stack & Lead iOS Engineer',
     content: (
       <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
+        Personal finance chat bot<br></br>
+        v1 of debt management native iOS app</p>
+    ),
+  },
+  {
+    date: 'July 2017 - June 2019',
+    location: 'IBM',
+    title: 'Full Stack Engineer',
+    content: (
+      <p>Focused on eventing, data pipeline, and performance</p>
     ),
   },
 ];
